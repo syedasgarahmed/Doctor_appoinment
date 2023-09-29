@@ -31,8 +31,8 @@ Retrieve details of a specific doctor (GET /doctors/<doctor_id>):
 
 To retrieve details of a specific doctor, make a GET request to the /doctors/<doctor_id> endpoint, where <doctor_id> should be replaced with the actual ID of the doctor you want to retrieve. Here's an example using curl:
 
-**curl -X GET http://localhost:5000/doctors/1
-**This will retrieve details for the doctor with ID 1.
+**curl -X GET http://localhost:5000/doctors/1**
+This will retrieve details for the doctor with ID 1.
 
 Book an appointment (POST /appointments):
 
